@@ -12,6 +12,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        h3 {
+            font-size: 50px;
+        }
+    </style>
 </head>
 <body>
     
@@ -19,49 +24,34 @@
         <nav>
             <button onclick="location.href='#about_me'">About</button>
             <button onclick="location.href='#projects'">Projects</button>
+            <button onclick="location.href='index.html'">Powrót</button>
         </nav>    
     </header>
 
-    <main>
-        <section id="about_me">
-            <h2>O mnie</h2>
-            <img src="ja.jpg" alt="to tylko ja">
-            <p>
-                Cześć! Nazywam się Stanisław Kozłowski i jestem pasjonatem programowania oraz nowych technologii. Uczęszczam do technikum w Oławie, które wkrótce kończę, i rozwijam swoje umiejętności w zakresie tworzenia stron internetowych, aplikacji oraz algorytmiki.
-            </p>
-            <p>
-                Interesuję się frontendem (HTML, CSS, JavaScript), ale nie boję się wyzwań związanych z backendem (Python, C++). Lubię tworzyć praktyczne mikroprojekty, które pomagają mi uczyć się nowych technologii i rozwiązywać realne problemy.
-            </p>
-            <p>
-                Na tej stronie znajdziesz moje portfolio – zarówno aktualne projekty, jak i starsze, które pokazują moją ścieżkę rozwoju. Jeśli masz ciekawy pomysł na współpracę, zapraszam do kontaktu!
-            </p>
-            
-        </section>
 
-        <section id="projects">
-            <div class="project">
-                <a href="todoList.html" target="_blank">
-                    <img src="todolist.png" alt="Project Image">
-                    <p>
-                        <h3>ToDo List</h3>
-                    Prosta aplikacja do zarządzania zadaniami. Umożliwia dodawanie, usuwanie i oznaczanie zadań jako wykonane. Napisana w HTML, CSS i JavaScript.
-                    </p>
-                </a>
-            </div>
-            <div class="project" style="height:500px;">
-                <a href="kalkulator.html" target="_blank">
-                    <img src="kalkulatorIMG.png" alt="Project Image">
-                    <p>
-                        <h3>Kalkulator GUI</h3>
-                    Prosta aplikacja, do liczenia. Dodawanie, odejmowanie, mnożenie i dzielenie. Napisana w pythonie przy pomocy biblioteki Tkinter.
-                    </p>
-                </a>
-            </div>
-            
-        </section>
-    </main>
+    <section id="projects">
+        <div class="project">
+            <a href="//github.com/Fistaszeq/Kalkulator-GUI-zwyk-y" target="_blank">
+                <!-- <img src="kalkulatorIMG.png" alt="Kalkulator GUI Project Image"> -->
+                <h3>Kalkulator GUI</h3>
+                <p>
+                    Jest to prosty kalkulator GUI napisany w Pytohnie. Umożliwia użytkownikom wykonywanie podstawowych operacji matematycznych, takich jak dodawanie, odejmowanie, mnożenie i dzielenie. 
+                </p>
+        
+                <span id="kalBack">
+                    <img src="kalGUI.png" id="kalGUI" alt="kalGUI">
+                </span>
+              
+                <p>
+                    Aplikacja działa na systemach Windows, Linux  i oferuje intuicyjny interfejs użytkownika.
+                </p>
+            </a>
+       
+        </div>
+        
+    </section>
 
-
+    
 
     <footer>
         <p>&copy; 2025 Stanisław Kozłowski. All rights reserved.</p>
