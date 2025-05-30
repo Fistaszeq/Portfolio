@@ -1,135 +1,107 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta name="description" content="Portfolio of Stanisław Kozłowski, a passionate programmer and technology enthusiast.">
-    <meta name="keywords" content="Stanisław Kozłowski, portfolio, programming, technology, web development, frontend, backend, HTML, CSS, JavaScript, Python, C++">
-    <meta name="author" content="Stanisław Kozłowski">
-    <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Portfolio of Stanisław Kozłowski">
-    <meta property="og:description" content="Explore the projects and skills of Stanisław Kozłowski, a passionate programmer and technology enthusiast.">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Kafelkowe</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body, html {
+      background-image: url("grafiki/pattern_scales-3_1_2_0-0_0_1__hsla\(203\,\ 82%\,\ 13%\,\ 1.00\)_hsla\(203\,\ 97%\,\ 37%\,\ 1.00\).png");
+    }
+  </style>
 </head>
 <body>
-    
-    <header>
-        <nav>
-            <button onclick="location.href='#about_me'">About</button>
-            <button onclick="location.href='#projects'">Projects</button>
-        </nav>    
-    </header>
+  <h1 style="color: #dff6ff;">Moje Portfolio</h1>
+<hr>
+<br>
+  <div class="tile-grid">
 
-    <main>
-        <section id="about_me">
-            <h2>O mnie</h2>
-            <img src="ja.jpg" alt="to tylko ja">
-            <p>
-                Cześć! Nazywam się Stanisław Kozłowski i jestem pasjonatem programowania oraz nowych technologii. Uczęszczam do technikum w Oławie, które wkrótce kończę, i rozwijam swoje umiejętności w zakresie tworzenia stron internetowych, aplikacji oraz algorytmiki.
-            </p>
-            <p>
-                Interesuję się frontendem (HTML, CSS, JavaScript), ale nie boję się wyzwań związanych z backendem (Python, C++). Lubię tworzyć praktyczne mikroprojekty, które pomagają mi uczyć się nowych technologii i rozwiązywać realne problemy.
-            </p>
-            <p>
-                Na tej stronie znajdziesz moje portfolio – zarówno aktualne projekty, jak i starsze, które pokazują moją ścieżkę rozwoju. Jeśli masz ciekawy pomysł na współpracę, zapraszam do kontaktu!
-            </p>
-            
-        </section>
+<!-- #f7630c; -->
 
-
-
-
-        <section id="projects">
-
-            <div class="project" style="height:500px;">
-                <small>24.02.2025 </small>
-                <a href="https://github.com/Fistaszeq/FlappyBirdPY" target="_blank">
-                    <img src="flapyBIRD.png" alt="Project Image">
-                    <p>
-                        <h3>Flappy Bird /bez menu/</h3>
-                    Gra Flappy Bird zrobiona w pythonie za pomocą biblioteki Pygame. Grafiki nie są moje. Gra jest jeszcze bez menu, ale główna mechanika działa.
-                    </p>
-                </a>
+    <div class="tile size-2x2" data-id="1">
+        <div class="tile-inner ">
+            <a href="o-mnie.html">
+              <div class="tile-front me">
+              Ja
             </div>
-
-            <div class="project" style="height:500px;">
-                <small>14.02.2025 </small>
-                <a href=" https://fistaszeq.github.io/KalkulatorJS/" target="_blank">
-                    <img src="kalkulatorJS.png" alt="Project Image" style="height: 50%;">
-                    <p>
-                        <h3>Kalkulator w JavaScript </h3>             
-                    Prosta aplikacja, do liczenia. Dodawanie, odejmowanie, mnożenie i dzielenie. Napisana w JavaScript.
-    
-                </p>
-                </a>
-            </div>
-
-
-            <div class="project" style="height:500px;">
-                <small>07.02.2025 </small>
-                <a href="kalkulator.html" target="_blank">
-                    <img src="kalkulatorIMG.png" alt="Project Image" style="height: 50%;">
-                    <p>
-                        <h3>Kalkulator GUI</h3>                 
-                    Prosta aplikacja, do liczenia. Dodawanie, odejmowanie, mnożenie i dzielenie. Napisana w pythonie przy pomocy biblioteki Tkinter.
- 
-                </p>
-                </a>
-            </div>
-
-
-            <div class="project" style="height:500px;">
-                <small>02.02.2025 </small>
-                <a href="https://fistaszeq.github.io/ToDO-List/" target="_blank">
-                    <img src="todolist.png" alt="Project Image">
-                    <p>
-                        <h3>ToDo List</h3>       
-                    Prosta aplikacja do zarządzania zadaniami. Umożliwia dodawanie, usuwanie i oznaczanie zadań jako wykonane. Napisana w HTML, CSS i JavaScript.
-                
-                </p>
-                </a>
-            </div>
-
-
-
+            </a>
         </div>
-      
-            
+    </div>
+
+    <div class="tile size-1x1" data-id="1">
+        <!-- <img src="grafiki/study.jpg" alt="study"> -->
+        <a href="hobby.html">
+          <div class="tile-inner">
+            <div class="tile-front study">Hobby</div>
+        </div>
+        </a>
+    </div>
+
+    <div class="tile size-1x1" data-id="1">
+        <div class="tile-inner">
+            <div class="tile-front spagetii">Projekty</div>
+        </div>
+    </div>
+
+    <div class="tile size-2x2" data-id="1">
+        <a href="projekt.html">
+            <div class="tile-inner ">
+            <div class="tile-front my">Edukacja</div>
+        </div>
+        </a>
+    </div>
 
 
+    <div class="tile size-1x1" data-id="1">
+      <a href="techniki.html">
+                <div class="tile-inner">
+            <div class="tile-front pomodoro">Techniki</div>
+        </div>
+      </a>
+    </div>
+    
+ <div class="tile size-1x1" data-id="1">
+      <div class="tile-inner">
+        <div class="tile-front dooing">Co robie?</div>
+      </div>
+    </div>
+  </div>
 
 
-        </section>
-    </main>
+<br>
+<hr>
+ <div class="tile-grid">
+      <div class="tile size-1x1" data-id="1">
+        <div class="tile-inner">
+            <div class="tile-front">Projekty</div>
+        </div>
+    </div>
+    
+ <div class="tile size-1x1" data-id="1">
+      <div class="tile-inner">
+        <div class="tile-front">Projekty</div>
+      </div>
+    </div>
+  </div>
 
 
+  </div>
+<br>
 
-    <footer>
-        <p>&copy; 2025 Stanisław Kozłowski. All rights reserved.</p>
+
+<hr>
+  <footer>
+        <p style="color: #dff6ff;">&copy; 2025 Stanisław Kozłowski. All rights reserved.</p>
         <div>
-            <a id="linked" href="https://www.linkedin.com/in/staszek-funfel-878672279/" target="_blank"><img src="c.png" class="icon" alt="Linkedin"></a> 
-            <a id="gitahub" href="https://github.com/Fistaszeq" target="_blank"><img src="a.png" class="icon" alt="Github"></a> 
-            <a id="emil" href="mailto:funfelstaszek@gmail.com"><img src="b.png" class="icon"  alt="Gmail"></a>
+            <a id="linked" href="https://www.linkedin.com/in/staszek-funfel-878672279/" target="_blank"><img src="grafiki/c.png" class="icon" alt="Linkedin"></a> 
+            <a id="gitahub" href="https://github.com/Fistaszeq" target="_blank"><img src="grafiki/a.png" class="icon" alt="Github"></a> 
+            <a id="emil" href="mailto:funfelstaszek@gmail.com"><img src="grafiki/b.png" class="icon"  alt="Gmail"></a>
         
         </div>
     </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-<!--          <div class="project">
-                <a href="https://github.com/your-repo" target="_blank">
-                    <img src="https://photographylife.com/wp-content/uploads/2014/09/Nikon-D750-Image-Samples-2.jpg" alt="Project Image">
-                    <p>
-                        <h3>Project Description</h3>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, cum reiciendis inventore alias ut id! Pariatur, officiis fugit, itaque natus, dolorum cupiditate voluptas aut quia quam sint quos inventore iure.
-                    </p>
-                </a>
-            </div>
-            
--->
